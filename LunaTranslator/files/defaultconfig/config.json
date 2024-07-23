@@ -1845,6 +1845,11 @@
             "name": "ChatGPT_兼容接口",
             "is_gpt_like": true
         },
+        "fanhuaji": {
+            "use": false,
+            "color": "blue",
+            "name": "繁化姬"
+        },
         "hanshant": {
             "type": "offline",
             "use": false,

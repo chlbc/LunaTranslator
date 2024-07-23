@@ -16,6 +16,54 @@
 			}
 		}
 	},
+	"fanhuaji": {
+		"args": {
+			"describe": "本翻譯使用了繁化姬的 API 服務，若要商業使用請洽：",
+			"commercial": "https://docs.zhconvert.org/commercial/",
+			"converterCHS": "zh-CN",
+			"converterCHT": "zh-TW",
+			"jpTextConversionStrategy": "default"
+		},
+		"argstype": {
+			"describe": {
+				"type": "label"
+			},
+			"commercial": {
+				"type": "label",
+				"islink": true
+			},
+			"converterCHS":{
+				"type": "combo",
+				"list": [
+					"zh-CHS",
+					"zh-CN",
+					"Pinyin",
+					"WikiSimplified"
+				]
+			},
+			"converterCHT":{
+				"type": "combo",
+				"list": [
+					"zh-CHT",
+					"zh-HK",
+					"zh-TW",
+					"zh-HK",
+					"Bopomofo",
+					"Mars",
+					"WikiTraditional"
+				]
+			},
+			"jpTextConversionStrategy": {
+				"type": "combo",
+				"list": [
+					"none",
+					"protect",
+					"protectOnlySameOrigin",
+					"fix"
+				]
+			}
+		}
+	},
 	"baiduapi": {
 		"args": {
 			"注册网址": "https://fanyi-api.baidu.com/api/trans/product/desktop",
